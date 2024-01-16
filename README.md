@@ -61,7 +61,7 @@ Building a model to predict whether a customer would be interested in Vehicle In
    * We found out that customer who already have vehicle insurance are almost have no interest in another vehicle insurance. Our analysis shows that 99.9% of customers that have a vehicle insurance is not
      interested in another vehicle insurance, while customer who doesn't have a vehicle insurance 22.5 % of them are interested with vehicle insurance.
    * Customers who never had vehicle damaged only 0.5 % of those customers are intersted with vehicle insurance, 87% of customers who never had any vehicle damaged already have a vehicle insurance.
-  
+***  
  
 ## Model Results:
 
@@ -71,6 +71,14 @@ Building a model to predict whether a customer would be interested in Vehicle In
    * The table is the evaluation matrix on all the algorithms, we are going to focus more on accuracy here.
    * It clearly shows that KNN classification has the best accuracy score with **0.899** recall score.
    * Please take a look at the machine learning modeling notebook for this classification cause if you need more details on the machine learning process, Thank you.
+***
+## Test data
+   * The model is tested for the teat data.
+   * Responses have been predicted using KNN classifiaction model.
+   * The recorded reponses along with the customer ID's has been saved in file name : Submission.csv
+   * This test data is visualized using Tableau.
+   * Tableau file : Vehicle_Insurance_Prediction.twbx
+*** 
 
 ## Contribution
 
